@@ -26,7 +26,7 @@
 - react와 react-dom 을 설치한다는 의미
 
 **package.json**
-![react react-dom](./img/reactjs-webpack-build/react-react-dom.png)
+![react react-dom](./img/reactjs-webpack-build/react-react-dom.PNG)
 
 **tree**
 
@@ -44,7 +44,7 @@
 - `-D` : development
 
 **package.json**
-![react react-dom](./img/reactjs-webpack-build/webpack-webpack-cli.png)
+![react react-dom](./img/reactjs-webpack-build/webpack-webpack-cli.PNG)
 
 4. 필요한 바벨 모듈을 설치
 
@@ -59,7 +59,7 @@
 `npm i -D @babel/core @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-react babel-loader`
 
 **package.json**
-![babel modules](./img/reactjs-webpack-build/bable-modules.png)
+![babel modules](./img/reactjs-webpack-build/bable-modules.PNG)
 
 5. client.jsx, likebutton.jsx 생성
 
@@ -193,7 +193,7 @@ export default LikeButton;
     8) cmd 에서 npx webpack 실행
         `npx webpack`
 
-    ![npx webpack](./img/reactjs-webpack-build/npx-webpack.png)
+    ![npx webpack](./img/reactjs-webpack-build/npx-webpack.PNG)
 
 
     9) index.html 생성
@@ -227,7 +227,7 @@ export default LikeButton;
 
 ### 결과 1
 
-![webpack index](./img/reactjs-webpack-build/index-webpack.png)
+![webpack index](./img/reactjs-webpack-build/index-webpack.PNG)
 
 7.  hot -loading 적용하기
 
@@ -248,7 +248,7 @@ export default LikeButton;
                     └── webpack.config.js
                 ```
 
-        ![devsever index](./img/reactjs-webpack-build/devsever.png)
+        ![devsever index](./img/reactjs-webpack-build/devsever.PNG)
 
     2.  package.json 수정
 
