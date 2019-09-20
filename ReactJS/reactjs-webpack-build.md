@@ -6,7 +6,7 @@
 
 지시에 따라 기입을 해주고 Yes를 입력
 
-![npm init2](./img/reactjs-webpack-build/npm-init2.png)
+![npm init2](./img/reactjs-webpack-build/npm-init2.PNG)
 
 **tree**
 
