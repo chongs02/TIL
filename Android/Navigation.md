@@ -1,7 +1,7 @@
 ```
 Navigation Exam
 ├── Java
-    ├── com.example.activityexam
+    ├── com.example.navigationexam
         ├── ChildActivity.java
         ├── MainActivity.java
         └── ParentActivity.java
