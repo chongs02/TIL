@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         // shortcut이라는 key에 null을 주어 초기화 시킴
         String packageName = preferences.getString("shortcut", null);
         // value가 null이 아닐경우 (shortcut key에 선택을 통해 value가 들어있는 경우)
-        if (packageName != null){
-            try{
+        if (packageName != null) {
+            try {
                 // device에서 value에 따른 icon을 가져와 image로 사용한다.
                 Drawable icon = getPackageManager().getApplicationIcon(packageName);
                 mShortcut.setImageDrawable(icon);
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         if (drawable != null){
             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
             String packageName = preferences.getString("shortcut", null);
-            if(packageName != null){
+            if(packageName != null) {
                 // intent에 packageName으로 app을 찾아 넣어 실행
                 Intent intent = getPackageManager().getLaunchIntentForPackage(packageName);
                 startActivity(intent);
