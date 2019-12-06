@@ -1,5 +1,7 @@
 ## RenderProps 예제
 
+- RenderProps로 **중복** 줄이기
+
 1. 기본 Component 생성 : Counter.js
 
 ```javascript
